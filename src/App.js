@@ -1,13 +1,15 @@
-
-import './App.css';
+import React from 'react';
+import Nav from './components/Nav';
+import About from './components/About';
 
 function App() {
+
   return (
     <div>
+      <Nav />
       <main>
-        <About>Who am I?</About>
+          <About />        
       </main>
-      
     </div>
   );
 }
